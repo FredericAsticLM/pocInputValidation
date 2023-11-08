@@ -1,0 +1,40 @@
+{
+  "pins" : [
+    {
+      "identity" : "enki-design-system-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adeo/enki-design-system-ios",
+      "state" : {
+        "revision" : "cd49b30c4fd4f4431e3fd1e136657091ef3c1226"
+      }
+    },
+    {
+      "identity" : "enki-fork-navigationbackport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adeo/enki-fork-navigationbackport.git",
+      "state" : {
+        "revision" : "2a6293fbe3e0eae255f8bac23df072ea58b047a2",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftgenplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftGen/SwiftGenPlugin",
+      "state" : {
+        "revision" : "879b85a470cacd70c19e22eb7e11a3aed66f4068",
+        "version" : "6.6.2"
+      }
+    },
+    {
+      "identity" : "swiftlintplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukepistrol/SwiftLintPlugin",
+      "state" : {
+        "revision" : "ea918d6d5988407b24c2efad7722560752b1638a",
+        "version" : "0.53.0"
+      }
+    }
+  ],
+  "version" : 2
+}

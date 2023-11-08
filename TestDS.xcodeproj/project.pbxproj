@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5DE0362AE7AF3900219FC3 /* EnkiNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5DE0352AE7AF3900219FC3 /* EnkiNotificationCenter.swift */; };
+		0E70E14B2AD9264000AA9E6B /* TestDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70E14A2AD9264000AA9E6B /* TestDSApp.swift */; };
+		0E70E14D2AD9264000AA9E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70E14C2AD9264000AA9E6B /* ContentView.swift */; };
+		0E70E1512AD9264200AA9E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70E1502AD9264200AA9E6B /* Assets.xcassets */; };
+		0E70E1552AD9264200AA9E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70E1542AD9264200AA9E6B /* Preview Assets.xcassets */; };
+		0E70E15D2AD9268600AA9E6B /* EnkiDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 0E70E15C2AD9268600AA9E6B /* EnkiDesignSystem */; };
+		0E8DBB682AFBB597007FC7BF /* InputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DBB672AFBB597007FC7BF /* InputState.swift */; };
+		0E8DBB6A2AFBB5B7007FC7BF /* InputValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DBB692AFBB5B7007FC7BF /* InputValidationRule.swift */; };
+		0E8DBB6C2AFBB837007FC7BF /* InputValidationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DBB6B2AFBB837007FC7BF /* InputValidationUseCase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E5DE0352AE7AF3900219FC3 /* EnkiNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnkiNotificationCenter.swift; sourceTree = "<group>"; };
+		0E70E1472AD9264000AA9E6B /* TestDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E70E14A2AD9264000AA9E6B /* TestDSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDSApp.swift; sourceTree = "<group>"; };
+		0E70E14C2AD9264000AA9E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E70E1502AD9264200AA9E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E70E1522AD9264200AA9E6B /* TestDS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestDS.entitlements; sourceTree = "<group>"; };
+		0E70E1542AD9264200AA9E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E8DBB672AFBB597007FC7BF /* InputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputState.swift; sourceTree = "<group>"; };
+		0E8DBB692AFBB5B7007FC7BF /* InputValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidationRule.swift; sourceTree = "<group>"; };
+		0E8DBB6B2AFBB837007FC7BF /* InputValidationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidationUseCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E70E1442AD9264000AA9E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E70E15D2AD9268600AA9E6B /* EnkiDesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5DE0342AE7AF2B00219FC3 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0E5DE0352AE7AF3900219FC3 /* EnkiNotificationCenter.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		0E70E13E2AD9264000AA9E6B = {
+			isa = PBXGroup;
+			children = (
+				0E70E1492AD9264000AA9E6B /* TestDS */,
+				0E70E1482AD9264000AA9E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E70E1482AD9264000AA9E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E70E1472AD9264000AA9E6B /* TestDS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E70E1492AD9264000AA9E6B /* TestDS */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DBB662AFBB58B007FC7BF /* Input */,
+				0E5DE0342AE7AF2B00219FC3 /* Notification */,
+				0E70E14A2AD9264000AA9E6B /* TestDSApp.swift */,
+				0E70E14C2AD9264000AA9E6B /* ContentView.swift */,
+				0E70E1502AD9264200AA9E6B /* Assets.xcassets */,
+				0E70E1522AD9264200AA9E6B /* TestDS.entitlements */,
+				0E70E1532AD9264200AA9E6B /* Preview Content */,
+			);
+			path = TestDS;
+			sourceTree = "<group>";
+		};
+		0E70E1532AD9264200AA9E6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E70E1542AD9264200AA9E6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E8DBB662AFBB58B007FC7BF /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DBB672AFBB597007FC7BF /* InputState.swift */,
+				0E8DBB692AFBB5B7007FC7BF /* InputValidationRule.swift */,
+				0E8DBB6B2AFBB837007FC7BF /* InputValidationUseCase.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E70E1462AD9264000AA9E6B /* TestDS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E70E1582AD9264200AA9E6B /* Build configuration list for PBXNativeTarget "TestDS" */;
+			buildPhases = (
+				0E70E1432AD9264000AA9E6B /* Sources */,
+				0E70E1442AD9264000AA9E6B /* Frameworks */,
+				0E70E1452AD9264000AA9E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDS;
+			packageProductDependencies = (
+				0E70E15C2AD9268600AA9E6B /* EnkiDesignSystem */,
+			);
+			productName = TestDS;
+			productReference = 0E70E1472AD9264000AA9E6B /* TestDS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E70E13F2AD9264000AA9E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E70E1462AD9264000AA9E6B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0E70E1422AD9264000AA9E6B /* Build configuration list for PBXProject "TestDS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E70E13E2AD9264000AA9E6B;
+			packageReferences = (
+				0E70E15B2AD9268600AA9E6B /* XCRemoteSwiftPackageReference "enki-design-system-ios" */,
+			);
+			productRefGroup = 0E70E1482AD9264000AA9E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E70E1462AD9264000AA9E6B /* TestDS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E70E1452AD9264000AA9E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E70E1552AD9264200AA9E6B /* Preview Assets.xcassets in Resources */,
+				0E70E1512AD9264200AA9E6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E70E1432AD9264000AA9E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E70E14D2AD9264000AA9E6B /* ContentView.swift in Sources */,
+				0E8DBB6C2AFBB837007FC7BF /* InputValidationUseCase.swift in Sources */,
+				0E8DBB682AFBB597007FC7BF /* InputState.swift in Sources */,
+				0E5DE0362AE7AF3900219FC3 /* EnkiNotificationCenter.swift in Sources */,
+				0E70E14B2AD9264000AA9E6B /* TestDSApp.swift in Sources */,
+				0E8DBB6A2AFBB5B7007FC7BF /* InputValidationRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E70E1562AD9264200AA9E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E70E1572AD9264200AA9E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0E70E1592AD9264200AA9E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestDS/TestDS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestDS/Preview Content\"";
+				DEVELOPMENT_TEAM = 34PUW2K9ZZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leroymerlin.fastic.test.TestDS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E70E15A2AD9264200AA9E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestDS/TestDS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestDS/Preview Content\"";
+				DEVELOPMENT_TEAM = 34PUW2K9ZZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leroymerlin.fastic.test.TestDS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E70E1422AD9264000AA9E6B /* Build configuration list for PBXProject "TestDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E70E1562AD9264200AA9E6B /* Debug */,
+				0E70E1572AD9264200AA9E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E70E1582AD9264200AA9E6B /* Build configuration list for PBXNativeTarget "TestDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E70E1592AD9264200AA9E6B /* Debug */,
+				0E70E15A2AD9264200AA9E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E70E15B2AD9268600AA9E6B /* XCRemoteSwiftPackageReference "enki-design-system-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adeo/enki-design-system-ios";
+			requirement = {
+				kind = revision;
+				revision = cd49b30c4fd4f4431e3fd1e136657091ef3c1226;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E70E15C2AD9268600AA9E6B /* EnkiDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E70E15B2AD9268600AA9E6B /* XCRemoteSwiftPackageReference "enki-design-system-ios" */;
+			productName = EnkiDesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E70E13F2AD9264000AA9E6B /* Project object */;
+}
